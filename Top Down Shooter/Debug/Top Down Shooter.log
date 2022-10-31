@@ -1,0 +1,32 @@
+﻿Build started 25-Mar-21 11:02:27 PM.
+     1>Project "C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Top Down Shooter\Top Down Shooter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Top Down Shooter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(916): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(917): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(910): warning C4101: 'score' : unreferenced local variable
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(909): warning C4101: 'name' : unreferenced local variable
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(1551): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(1556): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\ddipu\documents\visual studio 2010\projects\top down shooter\top down shooter\imain.cpp(1164): warning C4789: destination of memory copy is too small
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.exe" /NOLOGO bass.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Top Down Shooter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.lib" /MACHINE:X86 Debug\iMain.obj
+         LINK : C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.exe not found or not built by the last incremental link; performing full link
+         Top Down Shooter.vcxproj -> C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Debug\Top Down Shooter.exe;#1" /manifest "Debug\Top Down Shooter.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Top Down Shooter.unsuccessfulbuild".
+         Touching "Debug\Top Down Shooter.lastbuildstate".
+     1>Done Building Project "C:\Users\ddipu\documents\visual studio 2010\Projects\Top Down Shooter\Top Down Shooter\Top Down Shooter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
